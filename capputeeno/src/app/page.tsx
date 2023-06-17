@@ -1,5 +1,12 @@
+"use client"
 import { Header } from "@/components/header";
+import styles from './page.module.css'
+import { FilterBar } from "@/components/filter-bar";
 
-export default function Page(){
-   
+export default function Home(){
+   return(
+     <main className={styles.main}>
+        <FilterBar/>
+     </main>
+   )
 }
