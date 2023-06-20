@@ -7,7 +7,11 @@
     "start": "json-graphql-server db.js --p 3333"
   },
   "dependencies": {
+    "express-graphql": "^0.12.0",
     "faker": "^5.5.3",
-    "json-graphql-server": "^2.2.3"
+    "graphql-tools": "^9.0.0",
+    "json-graphql-server": "^2.2.3",
+    "querystring": "^0.2.1",
+    "uuid": "8.3"
   }
 }
