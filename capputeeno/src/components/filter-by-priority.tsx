@@ -9,6 +9,8 @@ const FilterContainer = styled.div`
     display: flex;
     align-items: center;
     position: relative;
+       
+   
 
     button{
         border: none;
@@ -23,7 +25,10 @@ const FilterContainer = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-
+        
+        
+        
+        
         svg{
             margin-left: 16px;
         }
@@ -41,6 +46,7 @@ const PriorityFilter = styled.ul`
     list-style: none;
 
     top: 100%;
+    right: 8px;
 
     li{
         color: var(--text-dark);

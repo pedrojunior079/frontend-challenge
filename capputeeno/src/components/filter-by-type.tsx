@@ -8,7 +8,7 @@ interface FilterItemProps{
 }
 
 const FilterList = styled.ul`
-    displey: flex;
+    display: flex;
     align-item: center;
     justify-content: center;
     gap: 40px;
@@ -27,6 +27,11 @@ const FilterItem = styled.li<FilterItemProps>`
     color: var(--text-dark);
 
     border-bottom: ${props => props.selected ? '4x solid var(--orange-low);' : ''}
+
+    @media(min-width: ${props => props.theme.desktopBreakpoint}){
+      font-size: 16px;
+      line-height: 22px;
+    }
 `
 
 export function FilterByType(){
